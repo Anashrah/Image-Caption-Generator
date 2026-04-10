@@ -1,2 +1,2 @@
-# Inventory-Counter
-Repository for computer vision project, Inventory Counter.
+# Image-Caption-Generator
+Repository for the computer vision project, Image Caption Generator.
