@@ -17,7 +17,7 @@ Emaan Gohar
 This project fits Tier 2 because it fine‑tunes a pretrained vision–language model on an existing caption dataset. It requires meaningful engineering, training, evaluation, and a working demo, but does not require building a model from scratch.
 
 ### Problem Statement
-Images contain rich visual information, but computers cannot naturally describe them in human language. This project aims to automatically generate accurate captions for images using a vision–language model. The goal is to build a system that understands an image and produces a natural‑language description.
+Images contain rich visual information, but computers cannot naturally describe them in human language. This project addresses the real‑world need for automatically describing images, enabling accessibility, better search, content moderation, and efficient organization of large visual datasets. It aims to help platforms that need to understand what's an image is to detect unsafe content, violence, or restricted material, and it also enhances text-based searches for images. The goal is to build a system that understands an image and produces a natural‑language description.
 
 ### Solution Overview
 We fine‑tune a pretrained image‑captioning model using a Kaggle dataset that already includes images and caption annotations. The system processes an input image, extracts visual features using a vision encoder, and generates a caption using a transformer‑based decoder. A simple inference script will allow users to upload an image and receive a caption.
