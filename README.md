@@ -46,11 +46,5 @@ Link: (https://www.kaggle.com/datasets/nikhil7280/coco-image-caption)
 
 ### Risks & Mitigations
 
-Risk	                              Probability	                Mitigation
-Low caption accuracy	              Medium	                    Fine‑tune longer, adjust learning                                                                   rate, use augmentation
-Missing or inconsistent data	      Low	                        Use Kaggle’s pre‑split annotations;                                                                 validate filenames
-Overfitting                        	Medium	                    Use validation set, early stopping,                                                                 dropout
-Slow training	                      Medium	                    Use Colab GPU, reduce batch size,                                                                   cache features
-Poor generalization                	Medium	                    Add mild augmentations, evaluate                                                                    on held‑out test set
-
+<img width="822" height="391" alt="image" src="https://github.com/user-attachments/assets/42d89dd2-ba24-497d-b0fd-5f24a8607097" />
 
