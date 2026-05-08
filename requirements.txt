@@ -11,3 +11,8 @@ scikit-learn
 nltk
 matplotlib
 seaborn
+pycocotools
+json
+os
+random
+requests
