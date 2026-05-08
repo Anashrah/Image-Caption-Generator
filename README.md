@@ -18,18 +18,17 @@ Emaan Gohar — Recorded the demo video, created the inference report, assisted 
 ### Tier Selection - Tier 2
 This project fits Tier 2 because it fine‑tunes a pretrained vision–language model on an existing caption dataset. It requires meaningful engineering, training, evaluation, and a working demo, but does not require building a model from scratch.
 
-Problem & Solution
-The Problem
+### The Problem
 Images contain rich visual information but computers cannot naturally describe them in human language. This creates a real gap in accessibility, content moderation, and image search. With billions of images uploaded every day, manually writing captions is simply not possible at scale.
-Our Solution
-We fine-tuned BLIP (Bootstrapped Language Image Pretraining) on the COCO 2017 dataset to automatically generate natural-language descriptions for any image. The system processes an image through a ViT vision encoder, passes the embeddings through a BERT-style transformer decoder via cross-attention, and outputs a caption using beam search generation.
-Impact
 
+#### Our Solution
+We fine-tuned BLIP (Bootstrapped Language Image Pretraining) on the COCO 2017 dataset to automatically generate natural-language descriptions for any image. The system processes an image through a ViT vision encoder, passes the embeddings through a BERT-style transformer decoder via cross-attention, and outputs a caption using beam search generation.
+
+### Impact
 - Visually impaired users can access image content without manual descriptions
 - Social media platforms can automatically detect unsafe or restricted content
 - Search engines can index images using generated text descriptions
 - Organizations can organize large visual datasets without human labeling
-
 
 
 ### Technical Approach
@@ -59,7 +58,7 @@ Link: (https://www.kaggle.com/datasets/nikhil7280/coco-image-caption)
 ### Week By Week Plan
 <img width="645" height="268" alt="image" src="https://github.com/user-attachments/assets/8b35c464-b66b-48cf-aa9e-6dad4f6a1655" />
 
-### Resources Needed
+### Resources Used
 * Compute: Google Colab, Kaggle
 * Cost: $0
 * APIs: Hugging Face Transformers (free)
