@@ -15,8 +15,6 @@ Jaqueline Lomas Vazquez — Created the final presentation slides, assisted with
 
 Emaan Gohar — Recorded the demo video, created the inference report, assisted with final submission preparation
 
-### Tier Selection - Tier 2
-This project fits Tier 2 because it fine‑tunes a pretrained vision–language model on an existing caption dataset. It requires meaningful engineering, training, evaluation, and a working demo, but does not require building a model from scratch.
 
 ### The Problem
 Images contain rich visual information but computers cannot naturally describe them in human language. This creates a real gap in accessibility, content moderation, and image search. With billions of images uploaded every day, manually writing captions is simply not possible at scale.
@@ -45,9 +43,9 @@ Key Libraries: transformers, torchvision, nltk, pycocoevalcap, rouge-score, matp
 
 ### Dataset Plan
 * Source: Kaggle COCO caption dataset
-* Split: Train 60% images, Val 20% Images, Test 20% Images
+* Split: Split: Train: (80%) Val: (10%) Test: (10%)
 * Size: 600 images with captions
-* Labels: Captions (primary), optional object tags if included
+* Classes: Captions (primary), optional object tags if included
 * Preprocessing: resizing, augmentation
 
 Link: (https://www.kaggle.com/datasets/nikhil7280/coco-image-caption)
