@@ -53,8 +53,6 @@ Link: (https://www.kaggle.com/datasets/nikhil7280/coco-image-caption)
 
 ### Results: 
 METRIC   -     VALUE
-
-      ---
       
 ACCURACY -  92.5%
 
