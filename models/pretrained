@@ -1,1 +1,7 @@
-
+Pretrained Model
+The base pretrained model used before fine-tuning:
+[Salesforce/blip-image-captioning-base]
+Link: https://huggingface.co/Salesforce/blip-image-captioning-base
+- Pretrained on 129 million image-caption pairs
+- ViT vision encoder + BERT-style transformer decoder
+- WordPiece tokenizer (~30k vocab)
