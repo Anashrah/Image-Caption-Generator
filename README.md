@@ -1,5 +1,6 @@
 # Image-Caption-Generator
 
+![Demo Screenshot](results/images/live%20demo%20screen%20shot%20(2).jpg)
 
 An AI system that automatically generates natural-language captions for any image.
 
