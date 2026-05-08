@@ -37,7 +37,8 @@ Model: Salesforce/blip-image-captioning-base (fine-tuned)
 Framework: PyTorch + Hugging Face Transformers
 Key Libraries: transformers, torchvision, nltk, pycocoevalcap, rouge-score, matplotlib
 
-System Architecture
+### System Architecture
+
 [Image Input] → [Preprocessing 384x384] → [ViT Vision Encoder] → [Cross-Attention] → [Transformer Decoder] → [Beam Search] → [Caption Output]
 
 
