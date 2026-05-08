@@ -23,17 +23,25 @@ Images contain rich visual information, but computers cannot naturally describe 
 We fine‑tune a pretrained image‑captioning model using a Kaggle dataset that already includes images and caption annotations. The system processes an input image, extracts visual features using a vision encoder, and generates a caption using a transformer‑based decoder. A simple inference script will allow users to upload an image and receive a caption.
 
 ### Technical Approach
-* Technique: Encoder–decoder vision–language modeling
+* Task: Image Captioning
 * Model: Pretrained vision + BLIP or CNN + RNN
-* Frameworks: PyTorch + Pytorch Transformers
+* Frameworks: PyTorch + Pytorch Transformers + opencv-python + hugging face
+
+<img width="886" height="438" alt="image" src="https://github.com/user-attachments/assets/e2cfac64-e71d-4333-881c-7b4b181ecd56" />
+
 
 ### Dataset Plan
 * Source: Kaggle COCO caption dataset
-* Split: The dataset includes separate train/val/test annotation files, so we use the provided splits
-* Size: Thousands of images with multiple human‑written captions
+* Split: Train 60% images, Val 20% Images, Test 20% Images
+* Size: 600 images with captions
 * Labels: Captions (primary), optional object tags if included
+* Preprocessing: resizing, augmentation
 
 Link: (https://www.kaggle.com/datasets/nikhil7280/coco-image-caption)
+
+### Results: 
+???
+
 
 ### Week By Week Plan
 <img width="645" height="268" alt="image" src="https://github.com/user-attachments/assets/8b35c464-b66b-48cf-aa9e-6dad4f6a1655" />
