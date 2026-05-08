@@ -53,12 +53,17 @@ Link: (https://www.kaggle.com/datasets/nikhil7280/coco-image-caption)
 
 ### Results: 
 METRIC      VALUE
-------      -----
-ACCURACY - 92.5%
+
+ACCURACY -  92.5%
+
 PRECISION - 90.1%
+
 RECALL - 89.3%
+
 F1-SCORE - 89.7%
+
 INFERENCE TIME - 0.05s per image
+
 FPS - 20+
 
 
