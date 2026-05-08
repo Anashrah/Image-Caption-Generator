@@ -4,10 +4,15 @@
 An AI system that automatically generates natural-language captions for any image.
 
 ### Team Members
+
 Anashrah Adil — Organized GitHub repository and project structure, worked on data exploration and documentation, updated README and uploaded project results
+
 Blessing Ajughu — Trained the BLIP image caption model, created model training and demo notebooks, managed dataset setup and model integration
+
 Wayne Lu — Worked on evaluation notebook and model metrics, tested and evaluated model performance
+
 Jaqueline Lomas Vazquez — Created the final presentation slides, assisted with project organization
+
 Emaan Gohar — Recorded the demo video, created the inference report, assisted with final submission preparation
 
 ### Tier Selection - Tier 2
