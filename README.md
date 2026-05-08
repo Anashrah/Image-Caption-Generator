@@ -1,34 +1,41 @@
 # Image-Caption-Generator
-Repository for the computer vision project, Image Caption Generator.
+
+
+An AI system that automatically generates natural-language captions for any image.
 
 ### Team Members
-Anashrah Adil
-
-Blessings Ajughu
-
-Wayne Lu
-
-Jaqueline Lomas Vazquez
-
-Emaan Gohar
-
+Anashrah Adil — Organized GitHub repository and project structure, worked on data exploration and documentation, updated README and uploaded project results
+Blessing Ajughu — Trained the BLIP image caption model, created model training and demo notebooks, managed dataset setup and model integration
+Wayne Lu — Worked on evaluation notebook and model metrics, tested and evaluated model performance
+Jaqueline Lomas Vazquez — Created the final presentation slides, assisted with project organization
+Emaan Gohar — Recorded the demo video, created the inference report, assisted with final submission preparation
 
 ### Tier Selection - Tier 2
 This project fits Tier 2 because it fine‑tunes a pretrained vision–language model on an existing caption dataset. It requires meaningful engineering, training, evaluation, and a working demo, but does not require building a model from scratch.
 
-### Problem Statement
-Images contain rich visual information, but computers cannot naturally describe them in human language. This project addresses the real‑world need for automatically describing images, enabling accessibility, better search, content moderation, and efficient organization of large visual datasets. It aims to help platforms that need to understand what an image is to detect unsafe content, violence, or restricted material, and it also enhances text-based searches for images, which is extremely important in the age of the internet and social media. The goal is to build a system that understands an image and produces a natural‑language description.
+Problem & Solution
+The Problem
+Images contain rich visual information but computers cannot naturally describe them in human language. This creates a real gap in accessibility, content moderation, and image search. With billions of images uploaded every day, manually writing captions is simply not possible at scale.
+Our Solution
+We fine-tuned BLIP (Bootstrapped Language Image Pretraining) on the COCO 2017 dataset to automatically generate natural-language descriptions for any image. The system processes an image through a ViT vision encoder, passes the embeddings through a BERT-style transformer decoder via cross-attention, and outputs a caption using beam search generation.
+Impact
 
-### Solution Overview
-We fine‑tune a pretrained image‑captioning model using a Kaggle dataset that already includes images and caption annotations. The system processes an input image, extracts visual features using a vision encoder, and generates a caption using a transformer‑based decoder. A simple inference script will allow users to upload an image and receive a caption.
+- Visually impaired users can access image content without manual descriptions
+- Social media platforms can automatically detect unsafe or restricted content
+- Search engines can index images using generated text descriptions
+- Organizations can organize large visual datasets without human labeling
+
+
 
 ### Technical Approach
-* Task: Image Captioning
-* Model: Pretrained vision + BLIP or CNN + RNN
-* Frameworks: PyTorch + Pytorch Transformers + opencv-python + hugging face
-  
+Task: Image Captioning (Vision Language Modeling)
+Model: Salesforce/blip-image-captioning-base (fine-tuned)
+Framework: PyTorch + Hugging Face Transformers
+Key Libraries: transformers, torchvision, nltk, pycocoevalcap, rouge-score, matplotlib
 
-<img width="886" height="438" alt="image" src="https://github.com/user-attachments/assets/e2cfac64-e71d-4333-881c-7b4b181ecd56" />
+System Architecture
+[Image Input] → [Preprocessing 384x384] → [ViT Vision Encoder] → [Cross-Attention] → [Transformer Decoder] → [Beam Search] → [Caption Output]
+
 
 
 ### Dataset Plan
