@@ -26,6 +26,7 @@ We fine‑tune a pretrained image‑captioning model using a Kaggle dataset that
 * Task: Image Captioning
 * Model: Pretrained vision + BLIP or CNN + RNN
 * Frameworks: PyTorch + Pytorch Transformers + opencv-python + hugging face
+  
 
 <img width="886" height="438" alt="image" src="https://github.com/user-attachments/assets/e2cfac64-e71d-4333-881c-7b4b181ecd56" />
 
