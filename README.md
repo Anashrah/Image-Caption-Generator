@@ -52,7 +52,7 @@ Key Libraries: transformers, torchvision, nltk, pycocoevalcap, rouge-score, matp
 Link: (https://www.kaggle.com/datasets/nikhil7280/coco-image-caption)
 
 ### Results: 
-METRIC        VALUE
+METRIC   -     VALUE
 
 ACCURACY -  92.5%
 
